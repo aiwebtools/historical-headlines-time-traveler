@@ -8,6 +8,7 @@ import FAQ from '../components/FAQ';
 import LegalDisclaimer from '../components/LegalDisclaimer';
 import Footer from '../components/Footer';
 import DisclaimerModal from '../components/DisclaimerModal';
+import StarryBackground from '../components/StarryBackground';
 
 const Index = () => {
   const [isDisclaimerOpen, setIsDisclaimerOpen] = useState(false);
@@ -58,9 +59,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <StarryBackground />
       <Navbar />
       
-      <main className="flex-grow">
+      <main className="flex-grow relative z-10">
         <Hero />
         <HowItWorks />
         <Testimonials />

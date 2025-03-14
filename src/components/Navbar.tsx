@@ -88,10 +88,10 @@ const Navbar: React.FC = () => {
 
       {/* Mobile Menu */}
       <div 
-        className={`md:hidden absolute w-full bg-cyber-dark-blue/95 backdrop-filter backdrop-blur-lg transition-all duration-300 ease-in-out border-t border-cyber-blue/30 
-          ${isMenuOpen ? 'max-h-[400px] opacity-100 py-4' : 'max-h-0 opacity-0 overflow-hidden'}`}
+        className={`md:hidden fixed top-[60px] left-0 right-0 bg-cyber-dark-blue/95 backdrop-filter backdrop-blur-lg transition-all duration-300 ease-in-out border-t border-cyber-blue/30 
+          ${isMenuOpen ? 'max-h-[calc(100vh-60px)] overflow-y-auto opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
       >
-        <div className="container mx-auto px-4 space-y-2 pb-4">
+        <div className="container mx-auto px-4 space-y-2 py-4">
           {navLinks.map((link, index) => (
             link.featured ? (
               <div key={index} className="py-2">
