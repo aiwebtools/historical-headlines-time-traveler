@@ -23,6 +23,7 @@ const Navbar: React.FC = () => {
   const navLinks = [
     { label: 'Historical Headlines GPT', url: 'https://chatgpt.com/g/g-67d47764b4488191aa3716588871b65a-historical-headlines-gpt' },
     { label: 'Talk To History GPT', url: 'https://talk-to-history-gpt.lovable.app/' },
+    { label: 'TIME MACHINE GPT', url: 'https://time-machine-gpt.lovable.app/' },
     { label: 'FAQ', url: '#faq' },
     { label: 'Disclaimer', url: '#disclaimer' },
     { label: 'More AI Tools', url: 'https://www.aiwebtools.ai' },
@@ -43,7 +44,7 @@ const Navbar: React.FC = () => {
                 <a 
                   href={link.url} 
                   className={`px-3 py-2 rounded-md text-sm font-cyber transition-all duration-300
-                    ${link.label === 'Talk To History GPT' 
+                    ${link.label === 'Talk To History GPT' || link.label === 'TIME MACHINE GPT'
                       ? 'text-cyber-orange font-semibold hover:text-cyber-orange/80' 
                       : 'text-cyber-gray hover:text-cyber-blue'}`}
                   target={link.url.startsWith('http') ? "_blank" : "_self"}
@@ -80,7 +81,7 @@ const Navbar: React.FC = () => {
               key={index}
               href={link.url} 
               className={`block py-2 px-4 text-center rounded transition-all duration-300
-                ${link.label === 'Talk To History GPT' 
+                ${link.label === 'Talk To History GPT' || link.label === 'TIME MACHINE GPT'
                   ? 'text-cyber-orange font-semibold hover:bg-cyber-dark/50' 
                   : 'text-cyber-gray hover:bg-cyber-dark/50 hover:text-cyber-blue'}`}
               onClick={() => setIsMenuOpen(false)}

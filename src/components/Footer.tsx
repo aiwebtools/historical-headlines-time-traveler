@@ -9,6 +9,7 @@ const Footer: React.FC = () => {
   const footerLinks = [
     { label: 'USE Historical Headlines GPT', url: 'https://chatgpt.com/g/g-67d47764b4488191aa3716588871b65a-historical-headlines-gpt' },
     { label: 'You may also like Talk To History GPT', url: 'https://talk-to-history-gpt.lovable.app/' },
+    { label: 'Check out TIME MACHINE GPT', url: 'https://time-machine-gpt.lovable.app/' },
     { label: 'FAQ', url: '#faq' },
     { label: 'Disclaimer', url: '#disclaimer' },
     { label: 'More AI Tools', url: 'https://www.aiwebtools.ai' },
