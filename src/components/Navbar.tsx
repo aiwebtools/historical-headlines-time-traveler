@@ -32,10 +32,12 @@ const Navbar: React.FC = () => {
     <nav className={`fixed w-full top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-cyber-dark-blue/80 backdrop-blur-md shadow-md py-2' : 'bg-transparent py-4'}`}>
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <Logo />
+          <div className="flex-shrink-0">
+            <Logo size="sm" showTagline={false} />
+          </div>
 
           {/* Desktop Menu */}
-          <div className="hidden md:flex space-x-1">
+          <div className="hidden md:flex items-center space-x-1 pl-4">
             {navLinks.map((link, index) => (
               <React.Fragment key={index}>
                 <a 
