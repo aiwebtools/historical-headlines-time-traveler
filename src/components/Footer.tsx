@@ -21,6 +21,13 @@ const Footer: React.FC = () => {
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-cyber-blue via-cyber-purple to-cyber-orange" />
       
       <div className="container mx-auto px-4">
+        {/* Small disclaimer notice */}
+        <div className="text-center mb-8 p-4 bg-cyber-blue/10 rounded-lg border border-cyber-blue/20">
+          <p className="text-cyber-gray text-sm">
+            <strong className="text-cyber-blue">Notice:</strong> This tool is for informational, educational, and research purposes only.
+          </p>
+        </div>
+
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div>
             <Logo size="lg" className="mb-4" />
@@ -76,7 +83,7 @@ const Footer: React.FC = () => {
             <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-cyber-gray hover:text-cyber-blue transition-colors text-sm">
               Privacy Policy
             </a>
-            <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-cyber-gray hover:text-cyber-blue transition-colors text-sm">
+            <a href="https://aiwebtools.lovable.app/disclaimers" target="_blank" rel="noopener noreferrer" className="text-cyber-gray hover:text-cyber-blue transition-colors text-sm">
               Terms of Service
             </a>
           </div>

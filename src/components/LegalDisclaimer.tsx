@@ -78,7 +78,7 @@ const LegalDisclaimer: React.FC = () => {
             <a href="https://openai.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-blue-dark mr-6 transition-colors text-sm">
               Privacy Policy
             </a>
-            <a href="https://aiwebtools.ai/terms-of-services" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-blue-dark transition-colors text-sm">
+            <a href="https://aiwebtools.lovable.app/disclaimers" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-blue-dark transition-colors text-sm">
               Terms of Service
             </a>
           </div>
