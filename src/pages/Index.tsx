@@ -62,7 +62,7 @@ const Index = () => {
       <StarryBackground />
       <Navbar />
       
-      <main className="flex-grow relative z-10">
+      <main className="flex-grow relative z-10" role="main">
         <Hero />
         <HowItWorks />
         <Testimonials />
