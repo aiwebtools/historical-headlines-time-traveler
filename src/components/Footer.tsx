@@ -76,7 +76,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-cyber-blue/20 pt-6 mt-6 flex flex-col md:flex-row justify-between items-center">
           <div className="text-cyber-gray text-sm mb-4 md:mb-0">
-            © {currentYear} <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-blue-dark transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
+            © {currentYear} <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-blue-dark transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
           </div>
           
           <div className="flex space-x-6">
