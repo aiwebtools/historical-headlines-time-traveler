@@ -27,7 +27,7 @@ const Logo: React.FC<LogoProps> = ({ className = "", size = "md", showTagline = 
         </div>
         {showTagline && (
           <div className={`${sizes[size].tagline} font-cyber text-cyber-gray mt-[-2px]`}>
-            Presented by <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-blue-dark transition-colors">AiWebTools.Ai</a>
+            Presented by <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-blue-dark transition-colors">AiWebTools.Ai</a>
           </div>
         )}
       </div>

@@ -27,7 +27,7 @@ const Navbar: React.FC = () => {
     { label: 'TIME MACHINE GPT', url: 'https://time-machine-gpt.lovable.app/' },
     { label: 'FAQ', url: '#faq' },
     { label: 'Disclaimer', url: '#disclaimer' },
-    { label: 'More AI Tools', url: 'https://www.aiwebtools.ai' },
+    { label: 'More AI Tools', url: 'https://aiwebtools.lovable.app/?via=aiwebtools' },
   ];
 
   return (
