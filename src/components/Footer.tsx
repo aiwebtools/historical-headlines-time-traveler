@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
     { label: 'Check out TIME MACHINE GPT', url: 'https://time-machine-gpt.lovable.app/' },
     { label: 'FAQ', url: '#faq' },
     { label: 'Disclaimer', url: '#disclaimer' },
-    { label: 'More AI Tools', url: 'https://www.aiwebtools.ai' },
+    { label: 'More AI Tools', url: 'https://aiwebtools.lovable.app/?via=aiwebtools' },
   ];
 
   return (
@@ -76,7 +76,7 @@ const Footer: React.FC = () => {
         
         <div className="border-t border-cyber-blue/20 pt-6 mt-6 flex flex-col md:flex-row justify-between items-center">
           <div className="text-cyber-gray text-sm mb-4 md:mb-0">
-            © {currentYear} <a href="https://www.aiwebtools.ai" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-blue-dark transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
+            © {currentYear} <a href="https://aiwebtools.lovable.app/?via=aiwebtools" target="_blank" rel="noopener noreferrer" className="text-cyber-blue hover:text-cyber-blue-dark transition-colors">AI WEB TOOLS LLC</a> All rights reserved.
           </div>
           
           <div className="flex space-x-6">
@@ -92,7 +92,7 @@ const Footer: React.FC = () => {
         {/* More AI Tools Button */}
         <div className="fixed bottom-6 right-6 z-50">
           <a 
-            href="https://www.aiwebtools.ai" 
+            href="https://aiwebtools.lovable.app/?via=aiwebtools" 
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center px-4 py-2 bg-gradient-to-r from-cyber-blue to-cyber-purple rounded-full shadow-lg hover:shadow-xl transition-all duration-300 group"
